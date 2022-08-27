@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 1.1rem 'Allerta','Abel';
+
+}
+
+
+#navbarMonstera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+    padding: 25px 0;
+}
+
+
+#navFirst{
+    cursor: pointer;
+}
+#navMid{
+  display: flex;
+  
+}
+
+#navMid div{
+    display: inline-block;
+    cursor: pointer;
+}
+
+#navMid div h4:hover{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+#navMid h4{
+    margin-right: 4rem;
+    font-size: 1.4rem;
+}
+
+
+#navEnd{
+    display: flex;
+    
+}
+
+#navEnd>div{
+    padding:30px 15px
+}
+
+/* Middle whole  */
+
+#midWhole{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin:1rem 0 0 3rem;
+}
+
+#monstera{
+    font-size: 20rem;
+    letter-spacing: 20px;
+    margin-top: 2rem;
+    font-weight: bolder;
+    margin-bottom: -.5rem;
+    transform: scaleY(0.8);
+}
+
+#midWholePart11 ul{
+     font-family: 'Abel';
+     font-size: 1.5rem;
+     max-width: 50rem;
+} 
+
+#midWholePart11>div ul li{
+    color: #555;
+    font-size: 16px;
+    line-height: 20px;
+}
+#midWholePart11>div ul li h1{
+    font-size: 80px;
+    font-weight: 1500;
+    color: #000;
+    
+}
+
+
+#midWholePart12{
+    margin: 3rem;
+    margin-left: -4rem;   
+
+}
+
+#midWholePart121{
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    padding-left: 25px;
+    margin: auto ;
+    margin-left: 80px;
+    border-radius: 40px;
+    gap: 10px;
+    background-color: #466D50;
+    max-width: 180px;
+}
+
+#midWholePart122{
+    cursor: pointer;
+}
+
+
+#midWholePart13{
+    display: flex;
+   
+}
+
+.midWholePart13Parts {
+  display: flex;
+  gap: .3rem; 
+}
+
+.midWholePart13Parts h4{
+    font-size: 1.6rem;
+    color: #19191a;
+} 
+.midWholePart13Parts p{
+    font-size: .7rem;
+    color: #787779;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
